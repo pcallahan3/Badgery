@@ -6,7 +6,7 @@
 	*/
 -->
 
-<include href="pages/header.html" />
+<?php echo $this->render('pages/header.html',NULL,get_defined_vars(),0); ?>
 		<!---//End-header---->			
 				<!-- These are our grid blocks 	---->
 
@@ -119,4 +119,4 @@
 
 		
 		<!----start-footer--->
-		<include href="/pages/footer.html" />
+		<?php echo $this->render('/pages/footer.html',NULL,get_defined_vars(),0); ?>

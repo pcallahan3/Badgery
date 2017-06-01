@@ -10,6 +10,9 @@
     require_once('vendor/autoload.php');
     session_start();
     
+    //make app full screen
+    echo '<script type="text/javascript">toggleFullScreen();</script>';
+    
     //Create an instance of the Base class
     $f3 = Base::instance();
     
