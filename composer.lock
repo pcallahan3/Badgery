@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bcosca/fatfree-core.git",
-                "reference": "ab0d078b50a0ce9c9641e85798ab9eae86af0d5a"
+                "reference": "c9a0f7d8ebe0652656f02e17c1a2b9d99fd51598"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bcosca/fatfree-core/zipball/ab0d078b50a0ce9c9641e85798ab9eae86af0d5a",
-                "reference": "ab0d078b50a0ce9c9641e85798ab9eae86af0d5a",
+                "url": "https://api.github.com/repos/bcosca/fatfree-core/zipball/c9a0f7d8ebe0652656f02e17c1a2b9d99fd51598",
+                "reference": "c9a0f7d8ebe0652656f02e17c1a2b9d99fd51598",
                 "shasum": ""
             },
             "require": {
@@ -35,7 +35,7 @@
             ],
             "description": "A powerful yet easy-to-use PHP micro-framework designed to help you build dynamic and robust Web applications - fast!",
             "homepage": "http://fatfreeframework.com/",
-            "time": "2017-05-16 00:33:31"
+            "time": "2017-05-24 11:44:30"
         }
     ],
     "packages-dev": [],

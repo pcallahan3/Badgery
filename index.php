@@ -20,11 +20,7 @@
     
     $f3->route('GET /', function($f3) { 
        
-        
-        
-        
-        
-       //load a template 
+       //load a template
        echo Template::instance()->render('pages/userHome.html'); 
     }); 
 
