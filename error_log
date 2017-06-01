@@ -1,0 +1,3 @@
+[31-May-2017 19:25:47 America/Chicago] PHP Fatal error:  Class 'Pet' not found in /home/pcallahan/public_html/IT328/Badgery/index.php on line 30
+[31-May-2017 19:25:47 America/Chicago] Fatal error: Class 'Pet' not found
+[31-May-2017 19:25:47 America/Chicago] [IT328/Badgery/index.php:30] 
