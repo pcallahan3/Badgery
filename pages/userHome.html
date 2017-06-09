@@ -15,7 +15,7 @@
 						<div class="card-deck text-center">
 							<!-- card -->
 							<div class="card text-center m-0 badge border-0">
-								<img class="card-img rounded-circle" src='images/beerDefault1.png' > 
+								<img class="card-img rounded-circle" src='images/beerIcons/coors.jpg' > 
 							</div>
 							<!-- card -->
 							<div class="card text-center m-0 badge border-0">

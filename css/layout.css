@@ -1,7 +1,7 @@
     /*
 	*Author: Nate Hascup & Patrick Callahan
 	*Greenriver IT 328
-	*Badgery index.php
+	*Badgery layout.css
 	*/
 
 
@@ -25,6 +25,11 @@
     height: 95px;
 }
 
+.card-img {
+    width: 90px;
+    height: 90px;
+}
+
 .body {
     background-image: url("images/waterDroplet.jpg");
     background-repeat: repeat-y;
@@ -32,4 +37,12 @@
 
 div.container-fullwidth {
     margin-top:60px;
+}
+
+#dropdown.dropdown.open {
+position: absolute;
+}
+
+.dropdown-toggle::after {
+    display:none
 }

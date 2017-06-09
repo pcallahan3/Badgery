@@ -1,9 +1,7 @@
 
 
 
-
-
-function toggleFullScreen() {
+/*function toggleFullScreen() {
     if (!document.fullscreenElement && !document.msFullscreenElement && !document.mozFullScreenElement && !document.webkitFullscreenElement) {
         if (document.documentElement.requestFullscreen) {
             document.documentElement.requestFullscreen();
@@ -25,4 +23,4 @@ function toggleFullScreen() {
             document.webkitCancelFullScreen();
         }
     }
-}
+}*/
