@@ -24,7 +24,7 @@
 						<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</button>
-						<a class="navbar-brand" href="#">
+						<a class="navbar-brand" href="./">
 							<img src="images/badgerBadgeBrown.png" width="30" height="30" alt="">Badgery
 						</a>
 						
@@ -40,17 +40,17 @@
 								</button>
 							</li>
 							
-							<!-- add a badge to current list -->
+							<!-- add a badge to collection 
 							<li class="nav-item d-inline-block">
 								<button type="button" class="btn btn-default navbar-toggler"> 
 									<i class="fa fa-plus-circle"></i> 
 								</button>
-							</li>
+							</li>-->
 							
-							<!-- view different series of badges -->
+							<!-- view collection -->
 							<li class="nav-item d-inline-block">
 								<button type="button" class="btn btn-default navbar-toggler"> 
-									<i class="fa fa-book"></i> 
+									<a href="./beerCollection"><i class="fa fa-book"></i></a> 
 								</button>
 							</li>
 							
@@ -71,7 +71,7 @@
 							<!-- sort -->
 							<li class="nav-item d-inline-block">
 								<button type="button" class="btn btn-default navbar-toggler"> 
-									<i class="fa fa-list-alt"></i> 
+									<i class="fa fa-sort"></i> 
 								</button>
 							</li>
 							

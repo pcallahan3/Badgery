@@ -16,14 +16,20 @@
     //Create an instance of the Base class
     $f3 = Base::instance();
     
-    
     //Set debug level
     $f3->set('DEBUG', 3);
     
 	//Instantiate the database class
 	$userDB = new User();
     
-    $f3->route('GET /', function($f3) { 
+	$f3->route('GET /', function($f3) { 
+	   
+	   
+       //load a template
+       echo Template::instance()->render('pages/splash.html'); 
+    }); 
+	
+    $f3->route('GET /beerCollection', function($f3) { 
        
 		//$user = 1;
 		//$blogger = $GLOBALS['bloggerDB']->bloggerInfo($user);
@@ -31,6 +37,7 @@
 		//$recentBlog = $GLOBALS['bloggerDB']->mostRecentBlog($user);
 		
 		$badgeDisplay = $GLOBALS['userDB']->userBadgeDisplay();
+		
 		
 		//$f3->set('user', $user);
 		$f3->set('badgeDisplay', $badgeDisplay);

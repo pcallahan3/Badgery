@@ -30,6 +30,11 @@
     height: 90px;
 }
 
+.little-badge {
+    width: 80px;
+    height: 80px;
+}
+
 .body {
     background-image: url("images/waterDroplet.jpg");
     background-repeat: repeat-y;
