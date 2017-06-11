@@ -20,30 +20,27 @@
 							<!-- card -->
 							<div class="card text-center m-0 badge border-0">
 								
-								
-								<img class="card-img caps rounded-circle" data-toggle="modal" data-target="#exampleModal"
-									src="images/beerIcons/<?= $badge['badge_ID'] ?>.jpg" onerror="this.src='images/beerIcons/beerDefault1.png';">
-								
+								<a data-target="#myModal" data-toggle="modal">
+									<img class="card-img caps rounded-circle" src="images/beerIcons/<?= $badge['badge_ID'] ?>.jpg" onerror="this.src='images/beerIcons/beerDefault1.png';">
+								</a>
 								<!-- Modal -->
-								<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-								  <div class="modal-dialog" role="document">
+								<div tabindex="-1" class="modal fade" id="myModal" role="dialog" aria-hidden="true" aria-labelledby="myModalLabel">
+								  <div class="modal-dialog">
 									<div class="modal-content">
 									  <div class="modal-header">
-										<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-										  <span aria-hidden="true">&times;</span>
-										</button>
+										<button class="close" aria-hidden="true" type="button" data-dismiss="modal">×</button>
+										<h4 class="modal-title" id="myModalLabel">More Beer?</h4>
 									  </div>
 									  <div class="modal-body">
-										...
+										<p><img src="images/bubbaJ.jpg"></p>
 									  </div>
 									  <div class="modal-footer">
-										<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-										<button type="button" class="btn btn-primary">Save changes</button>
+										<button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+										<button class="btn btn-primary" type="button">Save changes</button>
 									  </div>
-									</div>
-								  </div>
-								</div>
+									</div><!-- /.modal-content -->
+								  </div><!-- /.modal-dialog -->
+								</div><!-- /.modal -->
 								
 							</div>
 							
