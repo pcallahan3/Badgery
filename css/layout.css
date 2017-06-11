@@ -50,3 +50,7 @@ position: absolute;
 .caps {
     opacity: 0.5;
 }
+
+.caps:hover {
+    opacity: 0.5;
+}
