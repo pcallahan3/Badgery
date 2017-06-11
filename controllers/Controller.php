@@ -3,7 +3,7 @@
 /**
  *Controler to hold DB credentials
  */
-class Controller {
+/*class Controller {
  
     protected $f3;
     protected $db;
@@ -33,4 +33,4 @@ class Controller {
     function afterroute() {
         echo Template::instance()->render('layout.htm');
     }
-}
+}*/

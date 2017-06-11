@@ -46,3 +46,7 @@ position: absolute;
 .dropdown-toggle::after {
     display:none
 }
+
+.caps {
+    opacity: 0.5;
+}

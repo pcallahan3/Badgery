@@ -13,96 +13,26 @@
 							
 						<!-- begin card deck/columns -->
 						<div class="card-deck text-center">
-							<!-- card -->
-							<div class="card text-center m-0 badge border-0">
-								<img class="card-img rounded-circle" src='images/beerIcons/coors.jpg' > 
-							</div>
-							<!-- card -->
-							<div class="card text-center m-0 badge border-0">
-								<img class="card-img rounded-circle" src='images/beerDefault1.png' > 
-							</div>
-							<!-- card -->
-							<div class="card text-center m-0 badge border-0">
-								<img class="card-img rounded-circle" src='images/beerDefault1.png' > 
-							</div>
+							
+							<?php foreach (($badgeDisplay?:[]) as $badge): ?>
+							
 							
 							<!-- card -->
 							<div class="card text-center m-0 badge border-0">
-								<img class="card-img" src='images/beerDefault1.png' > 
-							</div>
-							<!-- card -->
-							<div class="card text-center m-0 badge border-0">
-								<img class="card-img rounded-circle" src='images/beerDefault1.png' > 
-							</div>
-							<!-- card -->
-							<div class="card text-center m-0 badge border-0">
-								<img class="card-img rounded-circle" src='images/beerDefault1.png' > 
+								<img class="card-img caps rounded-circle" src="images/beerIcons/<?= $badge['badge_ID'] ?>.jpg"
+									onerror="this.src='images/beerIcons/beerDefault1.png';"> 
 							</div>
 							
-							<!-- card -->
-							<div class="card text-center m-0 badge border-0">
-								<img class="card-img" src='images/beerDefault1.png' > 
-							</div>
-							<!-- card -->
-							<div class="card text-center m-0 badge border-0">
-								<img class="card-img rounded-circle" src='images/beerDefault1.png' > 
-							</div>
-							<!-- card -->
-							<div class="card text-center m-0 badge border-0">
-								<img class="card-img rounded-circle" src='images/beerDefault1.png' > 
-							</div>
 							
-							<!-- card -->
-							<div class="card text-center m-0 badge border-0">
-								<img class="card-img" src='images/beerDefault1.png' > 
-							</div>
-							<!-- card -->
-							<div class="card text-center m-0 badge border-0">
-								<img class="card-img rounded-circle" src='images/beerDefault1.png' > 
-							</div>
-							<!-- card -->
-							<div class="card text-center m-0 badge border-0">
-								<img class="card-img rounded-circle" src='images/beerDefault1.png' > 
-							</div>
+							<?php endforeach; ?>
 							
-							<!-- card -->
-							<div class="card text-center m-0 badge border-0">
-								<img class="card-img" src='images/beerDefault1.png' > 
-							</div>
-							<!-- card -->
-							<div class="card text-center m-0 badge border-0">
-								<img class="card-img rounded-circle" src='images/beerDefault1.png' > 
-							</div>
-							<!-- card -->
-							<div class="card text-center m-0 badge border-0">
-								<img class="card-img rounded-circle" src='images/beerDefault1.png' > 
-							</div>
 							
-							<!-- card -->
-							<div class="card text-center m-0 badge border-0">
-								<img class="card-img" src='images/beerDefault1.png' > 
-							</div>
-							<!-- card -->
+							<!-- card
+							images/beerIcons/coors.jpg
 							<div class="card text-center m-0 badge border-0">
 								<img class="card-img rounded-circle" src='images/beerDefault1.png' > 
 							</div>
-							<!-- card -->
-							<div class="card text-center m-0 badge border-0">
-								<img class="card-img rounded-circle" src='images/beerDefault1.png' > 
-							</div>
-							
-							<!-- card -->
-							<div class="card text-center m-0 badge border-0">
-								<img class="card-img" src='images/beerDefault1.png' > 
-							</div>
-							<!-- card -->
-							<div class="card text-center m-0 badge border-0">
-								<img class="card-img rounded-circle" src='images/beerDefault1.png' > 
-							</div>
-							<!-- card -->
-							<div class="card text-center m-0 badge border-0">
-								<img class="card-img rounded-circle" src='images/beerDefault1.png' > 
-							</div>
+							-->
 							
 							
 							<!--<div class="w-100 hidden-sm-down hidden-lg-up"><!-- wrap every 3 on md</div>-->
